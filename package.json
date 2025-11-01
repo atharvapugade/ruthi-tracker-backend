@@ -12,6 +12,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@hapi/address": "^5.1.1",
+    "@hapi/formula": "^3.0.2",
+    "@hapi/hoek": "^11.0.7",
     "@mongodb-js/saslprep": "^1.1.6",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
