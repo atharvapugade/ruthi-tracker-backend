@@ -12,15 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@hapi/address": "^5.1.1",
-    "@hapi/formula": "^3.0.2",
-    "@hapi/hoek": "^11.0.7",
     "@mongodb-js/saslprep": "^1.1.6",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.19.2",
-    "joi": "^18.0.1",
+    "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.2",
     "path-to-regexp": "^6.2.1"
