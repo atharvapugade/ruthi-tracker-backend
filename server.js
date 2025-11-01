@@ -18,10 +18,10 @@ app.use('/api/activities', require('./routes/activity.routes'));
 app.use('/api/users', require('./routes/user.routes'));
 
 
-// Health check route
-app.get('/api/health', (req, res) => {
-  res.json({ ok: true, time: new Date() });
+app.get("/", (req, res) => {
+  res.send("✅ Ruthi Tracker Backend is running successfully on Render!");
 });
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => console.log(`✅ Server running on port ${PORT}`));
